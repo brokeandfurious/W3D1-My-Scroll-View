@@ -13,6 +13,7 @@
 		9DFDFE5C1FB9FE4100D53105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDFE5B1FB9FE4100D53105 /* Assets.xcassets */; };
 		9DFDFE5F1FB9FE4100D53105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFDFE5D1FB9FE4100D53105 /* LaunchScreen.storyboard */; };
 		9DFDFE621FB9FE4100D53105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDFE611FB9FE4100D53105 /* main.m */; };
+		9DFDFE6A1FBA042200D53105 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDFE691FBA042200D53105 /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9DFDFE5E1FB9FE4100D53105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DFDFE601FB9FE4100D53105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DFDFE611FB9FE4100D53105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DFDFE681FBA042200D53105 /* MyScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		9DFDFE691FBA042200D53105 /* MyScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				9DFDFE5D1FB9FE4100D53105 /* LaunchScreen.storyboard */,
 				9DFDFE601FB9FE4100D53105 /* Info.plist */,
 				9DFDFE611FB9FE4100D53105 /* main.m */,
+				9DFDFE681FBA042200D53105 /* MyScrollView.h */,
+				9DFDFE691FBA042200D53105 /* MyScrollView.m */,
 			);
 			path = "W3D1 - My Scroll View";
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DFDFE571FB9FE4100D53105 /* ViewController.m in Sources */,
+				9DFDFE6A1FBA042200D53105 /* MyScrollView.m in Sources */,
 				9DFDFE621FB9FE4100D53105 /* main.m in Sources */,
 				9DFDFE541FB9FE4100D53105 /* AppDelegate.m in Sources */,
 			);
